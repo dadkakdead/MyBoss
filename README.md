@@ -1,13 +1,14 @@
 ### What is ntOrgchart? ###
 **ntOrgchart** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution - PowerPoint file with macros and a custom tab.
 
-##### Why should I use it? #####
+### Why should I use it? ###
 No other org chart automation software creates nice org charts out-of-the-box.
 
-##### Show me an example org chart! #####
+### Can you show me the example output? ###
+This slide was created using *ntOrgchart-sample_input.xlsx*.
 ![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/ntOrgchart-example_slide.png?raw=true)
 
-##### Have you checked the market? #####
+### Have you checked the market? ###
 There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but starting from ~50 ppl. it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
 
 1. Visual appeal. Initial arrangement of shapes looks clumsy, there is still much manual tuning to do;
@@ -15,12 +16,12 @@ There is a [growing] interest in creating org charts, and the most [common] appr
 
 Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them succesfuly addressed the 1st problem and very few addressed the 2nd. **ntOrgchart** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
 
-##### What do I need to try it? #####
+### What do I need to try it? ###
 You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **ntOrgchart** was manually tested only in:
 - PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
-##### How to run it? #####
+### How to run it? ###
 Since **ntOrgchart** is just a PowerPoint file, there is no installation required. However:
 
 1. Since it's written in VBA, PowerPoint may ask you to enable running VBA code, when you open the file (depending on your Trust Center settings). If "Security warning" comes up, just click "Enable content".
@@ -36,15 +37,15 @@ To perform a test run:
 7. Once loaded, click "Create org chart" -> "Single slide org structure".
 8. Wait until it finishes.
 
-##### It's not working! Can you help? #####
+### It's not working! Can you help? ###
 1. Restart your computer and check the issue.
 2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - i will try to help as soon as i can.
 3. If issue is gone, it's a lucky day.
 
-##### Is it 100% your code? #####
+### Is it 100% your code? ###
 Yes, except that i have used Tim Hall's custom implementation of Dictionary class ([available on github]) to support Mac. Thanks, Tim.
 
-##### Why did you choose to make a VBA solution? #####
+### Why did you choose to make a VBA solution? ###
 There are 3 ways to build custom solutions for Office suite:
 1. VBA solution
 2. Visual Studio Tools for Office (VSTO) Add-in
@@ -52,7 +53,7 @@ There are 3 ways to build custom solutions for Office suite:
 
 Their comparison is presented [here] and [there]. Basically, Office for Mac doesn't support VSTO Add-ins and JavaScript API for PowerPoint is yet (July'18) too limited.
 
-##### What is the right data format? #####
+### What is the right data format? ###
 Take a look at *ntOrgchart-sample_input.xlsx*. Basic rules:
 1. One org structure — one spreadsheet.
 2. One employee — one line.
@@ -72,7 +73,7 @@ Take a look at *ntOrgchart-sample_input.xlsx*. Basic rules:
 
 See "data_minimum" tab in *ntOrgchart-sample_input.xlsx* for the example of minimum data input.
 
-##### How to customize it on my own? #####
+### How to customize it on my own? ###
 The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in binary format. So, if you want to customize the **ntOrgchart**, you will have to use Office Visual Basic Editor.
 
 1. To customize logic (VBA):
