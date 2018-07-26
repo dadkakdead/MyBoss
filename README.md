@@ -6,7 +6,10 @@
 ### Can you show me the example output? ###
 
 This slide was created using *ntOrgchart-sample_input.xlsx*.
+
 ![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/ntOrgchart-example_slide.png?raw=true)
+
+Product demo is available here: https://www.youtube.com/watch?v=Do3c5ff7b1c
 
 ### Have you checked the market? ###
 There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but starting from ~50 ppl. it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
