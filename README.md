@@ -1,9 +1,6 @@
 ### What is ntOrgchart? ###
 **ntOrgchart** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution - PowerPoint file with macros and a custom tab.
 
-### Why should I use it? ###
-No other org chart automation software creates nice org charts out-of-the-box.
-
 ### Can you show me the example output? ###
 This slide was created using *ntOrgchart-sample_input.xlsx*.
 ![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/ntOrgchart-example_slide.png?raw=true)
