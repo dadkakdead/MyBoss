@@ -5,7 +5,7 @@
 
 ### How do these org charts look like? ###
 
-The slide below was automatically created by **ntOrgchart** using data from *ntOrgchart-sample_input.xlsx*.
+The slide below was automatically created by **ntOrgchart** using [sample data].
 
 ![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/misc/ntOrgchart-example_slide.jpg?raw=true)
 
@@ -34,7 +34,7 @@ To perform a test run:
 1. Open *ntorgchart.pptm*
 2. Go to "Org chart" tab
 3. Click "Open"
-4. Select *ntOrgchart-sample_input.xlsx*
+4. Select *sample input.xlsx*
 5. Select the spreadsheet you like
 6. Click "Upload"
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
@@ -90,6 +90,8 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
+
+[sample data]: <https://github.com/devrazdev/ntOrgchart/blob/master/misc/sample%20input.xlsx>
 
 [growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [common]: <https://www.youtube.com/results?search_query=create+org+chart>
