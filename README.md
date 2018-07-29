@@ -3,24 +3,24 @@
 
 ---
 
-### Can you show me the example output? ###
+### How do these org charts look like? ###
 
-This slide was created using *ntOrgchart-sample_input.xlsx*.
+The slide below was automatically created by **ntOrgchart** using data from *ntOrgchart-sample_input.xlsx*.
 
-![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/ntOrgchart-example_slide.png?raw=true)
+![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/misc/ntOrgchart-example_slide.png?raw=true)
 
-Product demo is available here: https://www.youtube.com/watch?v=Do3c5ff7b1c
+Also, product demo is available here: https://www.youtube.com/watch?v=Do3c5ff7b1c
 
-### Have you checked the market? ###
-There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but starting from ~50 ppl. it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
+### Why should I use it? ###
+There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
 
-1. Visual appeal. Initial arrangement of shapes looks clumsy, there is still much manual tuning to do;
-2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio.
+1. Visual appeal. Initial arrangement of shapes looks clumsy, there is still much manual tuning to do
+2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them succesfuly addressed the 1st problem and very few addressed the 2nd. **ntOrgchart** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
+Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them successfully addressed the 1st problem and very few addressed the 2nd. **ntOrgchart** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
 
 ### What do I need to try it? ###
-You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **ntOrgchart** was manually tested only in:
+You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **ntOrgchart** was manually tested with:
 - PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
@@ -31,32 +31,32 @@ Since **ntOrgchart** is just a PowerPoint file, there is no installation require
 2. **MAC ONLY:** Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put *ntOrgchart-browse_files_on_mac.scpt* to ~/Library/Application Scripts/com.microsoft.Powerpoint/, before running the **ntOrgchart**. Do not change the name of script since it's hardcoded!
 
 To perform a test run:
-1. Open *ntorgchart.pptm*.
-2. Go to "Org chart" tab.
-3. Click "Open".
-4. Select *ntOrgchart-sample_input.xlsx*.
-5. Select the spreadsheet you like.
-6. Click "Upload".
-7. Once loaded, click "Create org chart" -> "Single slide org structure".
-8. Wait until it finishes.
+1. Open *ntorgchart.pptm*
+2. Go to "Org chart" tab
+3. Click "Open"
+4. Select *ntOrgchart-sample_input.xlsx*
+5. Select the spreadsheet you like
+6. Click "Upload"
+7. Once loaded, click "Create org chart" -> "Single slide org structure"
+8. Wait until it finishes
 
 ### It's not working! Can you help? ###
-1. Restart your computer and check the issue.
-2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - i will try to help as soon as i can.
-3. If issue is gone, it's a lucky day.
+1. Restart your computer and check the issue
+2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - I will try to help as soon as possible
+3. If issue is gone, it's a lucky day
 
 ---
 
 ## Developers corner ##
 
 ### Are there any hidden dependencies? ###
-The only third-party thing i have included was Tim Hall's custom implementation of Dictionary class ([available on github]) to support Mac. Thanks, Tim.
+The only third-party thing I have included was Tim Hall's custom implementation of Dictionary class ([available on github]) to support Mac. Thanks, Tim.
 
 ### Why did you choose to make a VBA solution? ###
 There are 3 ways to build custom solutions for Office suite:
 1. VBA solution
 2. Visual Studio Tools for Office (VSTO) Add-in
-3. JavaScriot API Add-in
+3. JavaScript API Add-in
 
 Their comparison is presented [here] and [there]. Basically, Office for Mac doesn't support VSTO Add-ins and JavaScript API for PowerPoint is yet (July'18) too limited.
 
