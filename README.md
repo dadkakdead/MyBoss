@@ -1,5 +1,5 @@
 ### What is ntOrgchart? ###
-**ntOrgchart** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution - PowerPoint file with macros and a custom tab.
+**ntOrgchart** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
 
 ---
 
@@ -7,9 +7,9 @@
 
 The slide below was automatically created by **ntOrgchart** using [sample data].
 
-![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/misc/ntOrgchart-example_slide.jpg?raw=true)
+![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/misc/screenshot.jpg?raw=true)
 
-Also, product demo is available here: https://www.youtube.com/watch?v=Do3c5ff7b1c
+Also, [product demo] is available on Youtube. 
 
 ### Why should I use it? ###
 There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
@@ -91,7 +91,9 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
 
-[sample data]: <https://github.com/devrazdev/ntOrgchart/blob/master/misc/sample%20input.xlsx>
+[PowerPoint file]: <https://github.com/devrazdev/ntOrgchart/raw/master/ntOrgchart.pptm>
+[sample data]: <https://github.com/devrazdev/ntOrgchart/raw/master/misc/sample%20input.xlsx>
+[product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
 
 [growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [common]: <https://www.youtube.com/results?search_query=create+org+chart>
