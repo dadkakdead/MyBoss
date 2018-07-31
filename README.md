@@ -40,11 +40,6 @@ To perform a test run:
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
 8. Wait until it finishes
 
-### It's not working! Can you help? ###
-1. Restart your computer and check the issue
-2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - I will try to help as soon as possible
-3. If issue is gone, it's a lucky day
-
 ---
 
 ## Developers corner ##
@@ -90,6 +85,11 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
+
+### <XXX> not working! Can you help? ###
+1. Restart your computer and check the issue
+2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - I will try to help as soon as possible
+3. If issue is gone, it's a lucky day
 
 ## Farewell ##
 I would be happy to hear any feedback/news about how you use **ntOrgchart** in real life. Feel free to write me at devrazdev@gmail.com. Thank you.
