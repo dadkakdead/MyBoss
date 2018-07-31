@@ -92,7 +92,7 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
     - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
 
 ## Farewell ##
-I would be happy to hear any feedback/news from about how you use **ntReport** in real life. Please fee free to contact me by e-mail at devrazdev@gmail.com. Thank you.
+I would be happy to hear any feedback/news about how you use **ntOrgchart** in real life. Feel free to write me at devrazdev@gmail.com. Thank you.
 
 [PowerPoint file]: <https://github.com/devrazdev/ntOrgchart/raw/master/ntOrgchart.pptm>
 [sample data]: <https://github.com/devrazdev/ntOrgchart/raw/master/misc/sample%20input.xlsx>
