@@ -83,9 +83,6 @@ See "data_minimum" tab in *ntOrgchart-sample_input.xlsx* for the example of mini
 ### How to customize it on my own? ###
 The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in binary format. So, if you want to customize the **ntOrgchart**, you will have to use Office Visual Basic Editor.
 
-## Farewell ##
-I would be happy to hear any feedback/news from about how you use **ntReport** in real life. Please fee free to contact me by e-mail at devrazdev@gmail.com. Thank you.
-
 1. To customize logic (VBA):
     - PC: type Alt+F11 or go to "Developer" tab -> Visual Basic;
     - Mac: go to Tools -> Macro -> Visual Basic Editor.
@@ -93,6 +90,9 @@ I would be happy to hear any feedback/news from about how you use **ntReport** i
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
+
+## Farewell ##
+I would be happy to hear any feedback/news from about how you use **ntReport** in real life. Please fee free to contact me by e-mail at devrazdev@gmail.com. Thank you.
 
 [PowerPoint file]: <https://github.com/devrazdev/ntOrgchart/raw/master/ntOrgchart.pptm>
 [sample data]: <https://github.com/devrazdev/ntOrgchart/raw/master/misc/sample%20input.xlsx>
