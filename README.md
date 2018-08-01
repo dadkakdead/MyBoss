@@ -7,7 +7,7 @@
 
 The slide below was automatically created by **ntOrgchart** using [sample data].
 
-![ntOrgchart-example_slide](https://github.com/devrazdev/ntOrgchart/blob/master/misc/screenshot.jpg?raw=true)
+![ntOrgchart-demo](https://github.com/devrazdev/ntOrgchart/raw/master/misc/demo.gif)
 
 Also, [product demo] is available on Youtube. 
 
