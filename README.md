@@ -9,7 +9,7 @@ The slide below was automatically created by **ntOrgchart** using [sample data].
 
 ![ntOrgchart-demo](https://github.com/devrazdev/ntOrgchart/raw/master/misc/demo.gif)
 
-Also, [product demo] is available on Youtube. 
+Extended [product demo] is available on Youtube. 
 
 ### Why should I use it? ###
 There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
