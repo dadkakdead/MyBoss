@@ -22,7 +22,7 @@ There is a [growing] interest in creating org charts, and the most [common] appr
 1. Visual appeal. Automatic chart looks clumsy, usually requires manual adjustments
 2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation has already become a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]). None of them have good chart appeal and very few allow export to PowerPoint. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot, bitch! In your faceeeee
+Org chart automation has already become a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]). None of them have good chart appeal and very few allow export to PowerPoint. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. 
 
 [growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [common]: <https://www.youtube.com/results?search_query=create+org+chart>
@@ -33,8 +33,13 @@ Org chart automation has already become a feature of many cloud applications (ex
 [OrgChartNow]: <https://www.orgchartpro.com/products/orgchart-now-2/>
 [Lucidchart]: <https://www.lucidchart.com/pages/how-to-make-an-org-chart>
 
-### What do I need to try it? ###
-You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **MyBoss** was manually tested with:
+### What are the main features? ###
+-Check for data loop
+-Chart customisation
+-....
+
+### What are system requirements? ###
+You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*. **MyBoss** manually tested under:
 - PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
@@ -48,7 +53,7 @@ To perform a test run:
 1. Open *MyBoss.pptm*
 2. Go to "Org chart" tab
 3. Click "Open"
-4. Select *sample input.xlsx*
+4. Select *example input data.xlsx*
 5. Select the spreadsheet you like
 6. Click "Upload"
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
@@ -61,7 +66,7 @@ To perform a test run:
 ## Developers corner ##
 
 ### Are there any hidden dependencies? ###
-The only third-party thing I have included was Tim Hall's custom implementation of Dictionary class ([available on github]) to support Mac. Thanks, Tim.
+The only third-party module used is Tim Hall's custom implementation of Dictionary class  to support Mac ([available on github]). Thanks, Tim.
 
 [available on github]: <https://github.com/VBA-tools/VBA-Dictionary>
 
@@ -77,14 +82,14 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 [there]: <https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins#StartBuildingApps_TypesofApps>
 
 ### What is the right data format? ###
-Take a look at *MyBoss-sample_input.xlsx*. Basic rules:
-1. One org structure — one spreadsheet.
+Take a look at *example input data.xlsx*. Basic rules:
+1. Each spreadsheet represents a full org strructure. It must include all employees.
 2. One employee — one line.
 3. Minimum required data for every employee (not CEO) - 4 fields:
     - Employee Surname
     - Employee Name
     - Reports To Surname (manager's surname)
-    - Reports To Name (manager's surname)
+    - Reports To Name (manager's name)
 4. Minimum required data for CEO - 2 fields:
     - Employee Surname
     - Employee Name
@@ -94,18 +99,18 @@ Take a look at *MyBoss-sample_input.xlsx*. Basic rules:
     - Dotted Line Manager Surname
     - Dotted Line Manager
 
-See "data_minimum" tab in *MyBoss-sample_input.xlsx* for the example of minimum data input.
+See "data_minimum" tab in *example input data.xlsx*.
 
-### How to customize it on my own? ###
-The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary format. So, if you want to customize the **MyBoss**, you will have to use Office Visual Basic Editor.
+### How to customize MyBoss on my own? ###
+The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary format. So, if you want to customize  **MyBoss**, you will have to use Office Visual Basic Editor.
 
 1. To customize logic (VBA):
     - PC: type Alt+F11 or go to "Developer" tab -> Visual Basic;
     - Mac: go to Tools -> Macro -> Visual Basic Editor.
-2. To customize UI (Ribbon XML):
+2. To customize UI tab (Ribbon XML):
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
-    - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
+    - Mac: Suggest you find a PC. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which then you can edit...
 
 
 [Reference guide on UI]: <https://msdn.microsoft.com/en-us/library/dd926139(v=office.12).aspx>
@@ -114,12 +119,9 @@ The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary 
 [OfficeCustomUIEditorSetup]: http://openxmldeveloper.org/blog/b/openxmldeveloper/archive/2006/05/26/customuieditor.aspx
 [However]: <https://support.office.com/en-us/article/extract-files-or-objects-from-a-powerpoint-file-85511e6f-9e76-41ad-8424-eab8a5bbc517>
 
-### <XXX> not working! Can you help? ###
-1. Restart your computer and check the issue
-2. If issue persists, shoot me an e-mail at devrazdev@gmail.com - I will try to help as soon as possible
-3. If issue is gone, it's a lucky day
+### Troubleshooting ###
+1. Restart your computer and try again
+2. If issue persists, shoot me an e-mail at devrazdev@gmail.com. I will try to help as soon as possible
 
 ## Farewell ##
-I would be happy to hear any feedback/news about how you use **MyBoss** in real life. Feel free to write me at devrazdev@gmail.com. Thank you.
-
-[think-cell]: <https://www.think-cell.com/en/>
+I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at devrazdev@gmail.com. Thank you.
