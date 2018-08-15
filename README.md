@@ -1,19 +1,19 @@
-### What is ntOrgchart? ###
-**ntOrgchart** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
+### What is MyBoss? ###
+**MyBoss** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
 
-[PowerPoint file]: <https://github.com/devrazdev/ntOrgchart/raw/master/ntOrgchart.pptm>
+[PowerPoint file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm>
 
 ---
 
 ### How do these org charts look like? ###
 
-The slide below was automatically created by **ntOrgchart** using [sample data].
+The slide below was automatically created by **MyBoss** using [sample data].
 
-![ntOrgchart-demo](https://github.com/devrazdev/ntOrgchart/raw/master/misc/demo.gif)
+![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
 
 Extended [product demo] is available on Youtube. 
 
-[sample data]: <https://github.com/devrazdev/ntOrgchart/raw/master/sample%20input.xlsx>
+[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/sample%20input.xlsx>
 [product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
 
 ### Why should I use it? ###
@@ -22,7 +22,7 @@ There is a [growing] interest in creating org charts, and the most [common] appr
 1. Visual appeal. Initial arrangement of shapes looks clumsy, there is still much manual tuning to do
 2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them successfully addressed the 1st problem and very few addressed the 2nd. **ntOrgchart** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
+Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them successfully addressed the 1st problem and very few addressed the 2nd. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
 
 [growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [common]: <https://www.youtube.com/results?search_query=create+org+chart>
@@ -34,18 +34,18 @@ Org chart automation has already become a feature of many cloud applications ([G
 [Lucidchart]: <https://www.lucidchart.com/pages/how-to-make-an-org-chart>
 
 ### What do I need to try it? ###
-You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **ntOrgchart** was manually tested with:
+You should just have Microsoft PowerPoint 16.* and Microsoft Excel 16.* installed on your computer. Last time **MyBoss** was manually tested with:
 - PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
 ### How to run it? ###
-Since **ntOrgchart** is just a PowerPoint file, there is no installation required. However:
+Since **MyBoss** is just a PowerPoint file, there is no installation required. However:
 
 1. Since it's written in VBA, PowerPoint may ask you to enable running VBA code, when you open the file (depending on your Trust Center settings). If "Security warning" comes up, just click "Enable content".
-2. **MAC ONLY:** Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put *ntOrgchart-browse_files_on_mac.scpt* to ~/Library/Application Scripts/com.microsoft.Powerpoint/, before running the **ntOrgchart**. Do not change the name of script since it's hardcoded!
+2. **MAC ONLY:** Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put *MyBoss-browse_files_on_mac.scpt* to ~/Library/Application Scripts/com.microsoft.Powerpoint/, before running the **MyBoss**. Do not change the name of script since it's hardcoded!
 
 To perform a test run:
-1. Open *ntorgchart.pptm*
+1. Open *MyBoss.pptm*
 2. Go to "Org chart" tab
 3. Click "Open"
 4. Select *sample input.xlsx*
@@ -77,7 +77,7 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 [there]: <https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins#StartBuildingApps_TypesofApps>
 
 ### What is the right data format? ###
-Take a look at *ntOrgchart-sample_input.xlsx*. Basic rules:
+Take a look at *MyBoss-sample_input.xlsx*. Basic rules:
 1. One org structure — one spreadsheet.
 2. One employee — one line.
 3. Minimum required data for every employee (not CEO) - 4 fields:
@@ -94,10 +94,10 @@ Take a look at *ntOrgchart-sample_input.xlsx*. Basic rules:
     - Dotted Line Manager Surname
     - Dotted Line Manager
 
-See "data_minimum" tab in *ntOrgchart-sample_input.xlsx* for the example of minimum data input.
+See "data_minimum" tab in *MyBoss-sample_input.xlsx* for the example of minimum data input.
 
 ### How to customize it on my own? ###
-The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in binary format. So, if you want to customize the **ntOrgchart**, you will have to use Office Visual Basic Editor.
+The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary format. So, if you want to customize the **MyBoss**, you will have to use Office Visual Basic Editor.
 
 1. To customize logic (VBA):
     - PC: type Alt+F11 or go to "Developer" tab -> Visual Basic;
@@ -105,7 +105,7 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
 2. To customize UI (Ribbon XML):
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
-    - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *ntorgchart.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
+    - Mac: suggest you find a PC and check the point below. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which you can then edit...
 
 
 [Reference guide on UI]: <https://msdn.microsoft.com/en-us/library/dd926139(v=office.12).aspx>
@@ -120,6 +120,6 @@ The sad news is that VBA code is stored inside the *ntorgchart.pptm* file in bin
 3. If issue is gone, it's a lucky day
 
 ## Farewell ##
-I would be happy to hear any feedback/news about how you use **ntOrgchart** in real life. Feel free to write me at devrazdev@gmail.com. Thank you.
+I would be happy to hear any feedback/news about how you use **MyBoss** in real life. Feel free to write me at devrazdev@gmail.com. Thank you.
 
 [think-cell]: <https://www.think-cell.com/en/>
