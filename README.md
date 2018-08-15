@@ -1,5 +1,5 @@
 ### What is MyBoss? ###
-**MyBoss** is a tool to automatically create nice org charts in PowerPoint on PC and Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
+**MyBoss** is a tool for automatic organizational chart creation in PowerPoint on PC or Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
 
 [PowerPoint file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm>
 
@@ -7,7 +7,7 @@
 
 ### How do these org charts look like? ###
 
-The slide below was automatically created by **MyBoss** using [sample data].
+The slide below was automatically created with **MyBoss** using [example input data].
 
 ![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
 
@@ -17,12 +17,12 @@ Extended [product demo] is available on Youtube.
 [product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
 
 ### Why should I use it? ###
-There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you stumble over [Microsoft Visio]. Indeed, Visio let's you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 problems:
+There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 issues:
 
-1. Visual appeal. Initial arrangement of shapes looks clumsy, there is still much manual tuning to do
+1. Visual appeal. Automatic chart looks clumsy, usually requires manual adjustments
 2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation has already become a feature of many cloud applications ([Google Sheets], [OrgChartNow], [Lucidchart] to name a few), but neither of them successfully addressed the 1st problem and very few addressed the 2nd. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot.
+Org chart automation has already become a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]). None of them have good chart appeal and very few allow export to PowerPoint. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. Headshot, bitch! In your faceeeee
 
 [growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [common]: <https://www.youtube.com/results?search_query=create+org+chart>
