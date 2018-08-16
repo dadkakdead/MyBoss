@@ -43,7 +43,7 @@ Org chart automation has already become a feature of many cloud applications (ex
 And more:
 - Manual mode to create organizational charts of custom design
 - Customizable design, requiring no coding
-- Clickable elements — just click employee's card and **MyBoss** will automatically detect the name of employee
+- Clickable elements — **MyBoss** automatically detects the name of employee once you click on his/her card
 
 Extended [product demo] is available on Youtube. 
 
@@ -95,7 +95,7 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 
 ### What is the right data format? ###
 Take a look at [example input data]. Basic rules:
-1. Each spreadsheet represents a full org strructure. It must include all employees.
+1. Each spreadsheet represents a full org structure. It must include all employees.
 2. One employee — one line.
 3. Minimum required data for every employee (not CEO) - 4 fields:
     - Employee Surname
@@ -109,19 +109,17 @@ Take a look at [example input data]. Basic rules:
     - Reports To Surname
     - Reports To Name
     - Dotted Line Manager Surname
-    - Dotted Line Manager
+    - Dotted Line Manager Name
 
 ### How to customize MyBoss on my own? ###
-The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary format. So, if you want to customize  **MyBoss**, you will have to use Office Visual Basic Editor.
-
-1. To customize logic (VBA):
+1. To customize core, you will have to use Office Visual Basic Editor, since VBA code is stored inside the *MyBoss.pptm* file in binary format.
     - PC: type Alt+F11 or go to "Developer" tab -> Visual Basic;
     - Mac: go to Tools -> Macro -> Visual Basic Editor.
 2. To customize UI tab (Ribbon XML):
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: Suggest you find a PC. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which then you can edit...
-3. To customize the design of your organizational charts:
+3. To customize the design of organizational charts:
     - PC & Mac: edit the Templates on slide 1, preserving their names and their grouping. [Learn how to check the names of shapes using Selection pane]
 
 [Reference guide on UI]: <https://msdn.microsoft.com/en-us/library/dd926139(v=office.12).aspx>
