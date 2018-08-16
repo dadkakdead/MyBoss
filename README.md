@@ -1,7 +1,8 @@
 ### What is MyBoss? ###
 **MyBoss** is a tool for automatic organizational chart creation in PowerPoint on PC or Mac. Technically, it's a VBA solution — [PowerPoint file] with macros and a custom tab.
 
-[PowerPoint file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm>
+[MyBoss]: <https://github.com/devrazdev/MyBoss/blob/master/MyBoss.pptm>
+[PowerPoint file]: <https://github.com/devrazdev/MyBoss/blob/master/MyBoss.pptm>
 
 ---
 
@@ -11,15 +12,14 @@ The slide below was automatically created with **MyBoss** using [example input d
 
 ![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
 
-Extended [product demo] is available on Youtube. 
-
+[example input data]: <https://github.com/devrazdev/MyBoss/blob/master/example%20input%20data.xlsx>
 [sample data]: <https://github.com/devrazdev/MyBoss/raw/master/sample%20input.xlsx>
 [product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
 
 ### Why should I use it? ###
 There is a [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 issues:
 
-1. Visual appeal. Automatic chart looks clumsy, usually requires manual adjustments
+1. Visual appeal. Automatic charts look clumsy, they usually require manual adjustments
 2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
 Org chart automation has already become a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]). None of them have good chart appeal and very few allow export to PowerPoint. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. 
@@ -33,13 +33,24 @@ Org chart automation has already become a feature of many cloud applications (ex
 [OrgChartNow]: <https://www.orgchartpro.com/products/orgchart-now-2/>
 [Lucidchart]: <https://www.lucidchart.com/pages/how-to-make-an-org-chart>
 
-### What are the main features? ###
--Check for data loop
--Chart customisation
--....
+### What are the main features of MyBoss? ###
+- Automatic validation of data input (verifying there are no reporting loops, duplicate rows, typos, etc.)
+- Automatic calculation of headcount statistics (employees per manager, direct reports per manager, etc.)
+- Automatic selection of all chart parameters (sizes of cards, amount of white space between elements, distribution of parts of organizational structure per slides)
+- Automatic creation of organizational charts of any complexity (just 1 click after data import)
+- Automatic cross-linking of slides for easy navigation during presentation
+
+And more:
+- Manual mode to create organizational charts of custom design
+- Customizable design, requiring no coding
+- Clickable elements — just click employee's card and **MyBoss** will automatically detect the name of employee
+
+Extended [product demo] is available on Youtube. 
 
 ### What are system requirements? ###
-You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*. **MyBoss** manually tested under:
+You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
+
+**MyBoss** was manually tested under:
 - PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
@@ -47,23 +58,24 @@ You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*. **MyBoss** manually
 Since **MyBoss** is just a PowerPoint file, there is no installation required. However:
 
 1. Since it's written in VBA, PowerPoint may ask you to enable running VBA code, when you open the file (depending on your Trust Center settings). If "Security warning" comes up, just click "Enable content".
-2. **MAC ONLY:** Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put *MyBoss-browse_files_on_mac.scpt* to ~/Library/Application Scripts/com.microsoft.Powerpoint/, before running the **MyBoss**. Do not change the name of script since it's hardcoded!
+2. **MAC ONLY:** Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put [MyBoss-browse_files_on_mac.scpt] to your ~/Library/Application Scripts/com.microsoft.Powerpoint/, before running the **MyBoss**. Do not change the name of this file since it's hardcoded!
 
 To perform a test run:
-1. Open *MyBoss.pptm*
+1. Open [MyBoss]
 2. Go to "Org chart" tab
 3. Click "Open"
-4. Select *example input data.xlsx*
+4. Select [example input data]
 5. Select the spreadsheet you like
 6. Click "Upload"
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
 8. Wait until it finishes
 
+[MyBoss-browse_files_on_mac.scpt]: <https://github.com/devrazdev/MyBoss/blob/master/misc/MyBoss-browse_files_on_mac.scpt>
 [reading Excel files from PowerPoint require AppleScript]: <https://developer.microsoft.com/en-us/office/blogs/VBA-improvements-in-Office-2016/>
 
 ---
 
-## Developers corner ##
+## Developer's corner ##
 
 ### Are there any hidden dependencies? ###
 The only third-party module used is Tim Hall's custom implementation of Dictionary class  to support Mac ([available on github]). Thanks, Tim.
@@ -76,13 +88,13 @@ There are 3 ways to build custom solutions for Office suite:
 2. Visual Studio Tools for Office (VSTO) Add-in
 3. JavaScript API Add-in
 
-Their comparison is presented [here] and [there]. Basically, Office for Mac doesn't support VSTO Add-ins and JavaScript API for PowerPoint is yet (July'18) too limited.
+Their comparison is presented [here] and [there]. Basically, Office for Mac doesn't support VSTO Add-ins and JavaScript API for PowerPoint is yet too limited (July'18).
 
 [here]: <https://docs.microsoft.com/en-us/visualstudio/vsto/vba-and-office-solutions-in-visual-studio-compared>
 [there]: <https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins#StartBuildingApps_TypesofApps>
 
 ### What is the right data format? ###
-Take a look at *example input data.xlsx*. Basic rules:
+Take a look at [example input data]. Basic rules:
 1. Each spreadsheet represents a full org strructure. It must include all employees.
 2. One employee — one line.
 3. Minimum required data for every employee (not CEO) - 4 fields:
@@ -99,8 +111,6 @@ Take a look at *example input data.xlsx*. Basic rules:
     - Dotted Line Manager Surname
     - Dotted Line Manager
 
-See "data_minimum" tab in *example input data.xlsx*.
-
 ### How to customize MyBoss on my own? ###
 The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary format. So, if you want to customize  **MyBoss**, you will have to use Office Visual Basic Editor.
 
@@ -111,17 +121,14 @@ The sad news is that VBA code is stored inside the *MyBoss.pptm* file in binary 
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] 
     - Mac: Suggest you find a PC. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which then you can edit...
-
+3. To customize the design of your organizational charts:
+    - PC & Mac: edit the Templates on slide 1, preserving their names and their grouping. [Learn how to check the names of shapes using Selection pane]
 
 [Reference guide on UI]: <https://msdn.microsoft.com/en-us/library/dd926139(v=office.12).aspx>
 [Mac Ribbon examples]: <https://www.rondebruin.nl/mac/macfiles/MacRibbonExamples.dmg>
 [Win Ribbon examples]: <https://www.rondebruin.nl/win/winfiles/RibbonExampleFiles.zip>
 [OfficeCustomUIEditorSetup]: http://openxmldeveloper.org/blog/b/openxmldeveloper/archive/2006/05/26/customuieditor.aspx
 [However]: <https://support.office.com/en-us/article/extract-files-or-objects-from-a-powerpoint-file-85511e6f-9e76-41ad-8424-eab8a5bbc517>
-
-### Troubleshooting ###
-1. Restart your computer and try again
-2. If issue persists, shoot me an e-mail at devrazdev@gmail.com. I will try to help as soon as possible
-
+[Learn how to check the names of shapes using Selection pane]:<https://support.office.com/en-us/article/manage-objects-with-the-selection-pane-a6b2fd3e-d769-46c1-9b9c-b94e04a72550>
 ## Farewell ##
 I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at devrazdev@gmail.com. Thank you.
