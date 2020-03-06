@@ -13,7 +13,6 @@ If you use Windows — [click here to download the tool](https://github.com/devr
 The slide below was automatically created with **MyBoss** using [example input data].
 
 ![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
-[MyBoss]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm>
 
 [example input data]: <https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx>
 [sample data]: <https://github.com/devrazdev/MyBoss/raw/master/sample%20input.xlsx>
@@ -145,7 +144,7 @@ Take a look at [example input data]. Basic rules:
 [Learn how to check the names of shapes using Selection pane]:<https://support.office.com/en-us/article/manage-objects-with-the-selection-pane-a6b2fd3e-d769-46c1-9b9c-b94e04a72550>
 
 ## Farewell ##
-I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at devrazdev@gmail.com. Thank you.
+I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at nikitobot@gmail.com. Thank you.
 
 ## Thanks to contributors ❤️
 - **Anna Glushkova** — for keeping an eagle eye on technical part and being a devoted user
