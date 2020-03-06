@@ -4,12 +4,12 @@
 ### Ok, how to run it? ###
 If you use Windows — [click here to download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm). If you use Mac — scroll down to **How to run MyBoss on Mac?** section. 
 
-*NB: When you open the file, security warning may come up (depending on your Trust Center settings). It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is 100% VBA solution. So, if such a security warning comes up, just click "Enable content".*
+### Ok, how to create an input file for it?
+[Download the template file](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx) and customize it. For details, scroll down to **How to create input file?** section.
 
 ---
 
 ### How do these org charts look like? ###
-
 The slide below was automatically created with **MyBoss** using [example input data].
 
 ![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
@@ -49,6 +49,22 @@ And more:
 
 Extended [product demo] is available on Youtube. 
 
+### How to create input file? ###
+To create your own input file, you need to fill the Excel template, following these basic rules:
+
+1. One tab - one org tree.
+2. One line - one employee.
+3. "Must have" fields for CEO (boss, head of org tree):
+    - Employee Surname
+    - Employee Name
+4. "Must have" fields for every other employee:
+    - Employee Surname
+    - Employee Name
+    - Reports To Surname (manager's surname)
+    - Reports To Name (manager's name)
+
+To see an example, download the [example input data]. 
+
 ### What are system requirements? ###
 You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
 
@@ -57,7 +73,11 @@ You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
 - Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
 
 ### How to run MyBoss on Mac? ###
-Same as with Windows you need to [download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm). However, there is one more step ahead.
+Same as with Windows, you need to [download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) and open the file.
+
+*NB: When you open the file, security warning may come up. It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is a 100% VBA solution. So, if such a security warning comes up, just click "Enable content".*
+
+However, there is one more step ahead.
 
 Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put [this AppleScript file] to this folder:
 ```bash
@@ -106,24 +126,6 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 
 [here]: <https://docs.microsoft.com/en-us/visualstudio/vsto/vba-and-office-solutions-in-visual-studio-compared>
 [there]: <https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins#StartBuildingApps_TypesofApps>
-
-### What is the right data format? ###
-Take a look at [example input data]. Basic rules:
-1. Each spreadsheet represents a full org structure. It must include all employees.
-2. One employee — one line.
-3. Minimum required data for every employee (not CEO) - 4 fields:
-    - Employee Surname
-    - Employee Name
-    - Reports To Surname (manager's surname)
-    - Reports To Name (manager's name)
-4. Minimum required data for CEO - 2 fields:
-    - Employee Surname
-    - Employee Name
-5. CEO must have these fields empty (because nobody is managing CEO):
-    - Reports To Surname
-    - Reports To Name
-    - Dotted Line Manager Surname
-    - Dotted Line Manager Name
 
 ### How to customize MyBoss on my own? ###
 1. To customize core, you will have to use Office Visual Basic Editor, since VBA code is stored inside the *MyBoss.pptm* file in binary format.
