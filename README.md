@@ -7,7 +7,7 @@ If you use Windows — [click here to download the tool](https://github.com/devr
 ### Ok, how to create an input file for it?
 [Download the template file](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx) and customize it. For details, scroll down to **How to create input file?** section.
 
-### Question?
+### How to give feedback?
 Please don't hesitate to contact me at nikitobot@gmail.com if you have any questions or concerns.
 
 ---
