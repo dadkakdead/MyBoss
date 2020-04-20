@@ -8,7 +8,7 @@ If you use Windows — [click here to download the tool](https://github.com/devr
 [Download the template file](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx) and customize it. For details, scroll down to **How to create input file?** section.
 
 ### Question?
-Please don't hesitate to contact me at **nikitobot@gmail.com** if you have any questions or concerns.
+Please don't hesitate to contact me at nikitobot@gmail.com if you have any questions or concerns.
 
 ---
 
@@ -149,7 +149,8 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 [Learn how to check the names of shapes using Selection pane]:<https://support.office.com/en-us/article/manage-objects-with-the-selection-pane-a6b2fd3e-d769-46c1-9b9c-b94e04a72550>
 
 ## Farewell ##
-I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at nikitobot@gmail.com. Thank you.
+I would be happy to hear any feedback about your use of **MyBoss**. Feel free to write me at nikitobot@gmail.com
 
 ## Thanks to contributors ❤️
 - **Anna Glushkova** — for keeping an eagle eye on technical part and being a devoted user
+- **[Alexey Makurin](https://github.com/amakurin)** - for professionalism and persistence in debugging the rebellious VBA scripts
