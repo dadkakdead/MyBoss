@@ -1,14 +1,21 @@
 ### What is MyBoss? ###
-**MyBoss** is a tool for automatic organizational chart creation in PowerPoint on PC or Mac.
+**MyBoss** is a tool to create organizational charts in PowerPoint using Excel data on PC and Mac.
 
 ### Ok, how to run it? ###
-If you use Windows — [click here to download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm). If you use Mac — scroll down to **How to run MyBoss on Mac?** section. 
+**MyBoss** is a PowerPoint file, you just need to download and open it.
+- PC users: [click here to download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
+- Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
-### Ok, how to create an input file for it?
-[Download the template file](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx) and customize it. For details, scroll down to **How to create input file?** section.
+After you open the tool, fill the Excel template and import it to **MyBoss**.
 
-### How to give feedback?
-I would appreciate if you drop me a line at nikitobot@gmail.com Thank you)
+### Ok, where to get the Excel template?
+[Download Excel template here](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). I expect you find it's format self-explanatory, however there is a detailed description below in **How to fill Excel template?**
+section.
+
+### How to give you feedback?
+Share your experience and thoughts by email with nikitobot@gmail.com (me). 
+
+If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them. :)
 
 ---
 
@@ -52,7 +59,7 @@ And more:
 
 Extended [product demo] is available on Youtube. 
 
-### How to create input file? ###
+### How to fill Excel template? ###
 To create your own input file, you need to fill the Excel template, following these basic rules:
 
 1. One tab - one org tree.
@@ -108,6 +115,14 @@ To perform a test run:
 [this AppleScript file]: <https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-browse_files_on_mac.scpt>
 [reading Excel files from PowerPoint require AppleScript]: <https://developer.microsoft.com/en-us/office/blogs/VBA-improvements-in-Office-2016/>
 
+### F.A.Q ###
+> OrgChart tab is missing in PowerPoint.
+1. Make sure you opened **MyBoss.pptm** file you should have downloaded from this page.
+2. Make sure your PowerPoint security settings allow to run macros and allow access to
+document model.
+3. Make sure you can see OrgChart tab in ribbon settings in PowerPoint and it's checked to be visible.
+4. If you followed pp. 1-3 and it still does not work for you - drop me a line at nikitobot@gmail.com, i will try to help asap.
+
 ---
 
 ## Developer's corner ##
@@ -153,4 +168,4 @@ I would be happy to hear any feedback about your use of **MyBoss**. Feel free to
 
 ## Thanks to contributors ❤️
 - **Anna Glushkova** — for keeping an eagle eye on technical part and being a devoted user
-- **[Alexey Makurin](https://github.com/amakurin)** - for professionalism and persistence in debugging the rebellious VBA scripts
+- **[Alexey Makurin](https://github.com/amakurin)** — for professionalism and persistence in debugging the rebellious VBA scripts
