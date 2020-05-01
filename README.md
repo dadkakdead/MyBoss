@@ -2,13 +2,12 @@
 **MyBoss** lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. On PC and Mac.
 
 ### Ok, how to run it? ###
-**MyBoss** is a PowerPoint file, you just need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx).
+**MyBoss** is a PowerPoint file, you just need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
 ### Ok, how to fill the Excel template?
-Template's format is self-explanatory, you will grasp it once you [open it](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). Just in case, below is detailed description in **How to fill Excel template?**
-section.
+Play with [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there is a detailed description below in **How to fill the Excel template?** section for each of them.
 
 ### How to give you feedback?
 Send a story about your journey to nikitobot@gmail.com. 
@@ -18,14 +17,11 @@ If **MyBoss** saves you time, give it a tribute by spreading a word among collea
 ---
 
 ### How does MyBoss work? ###
-See it in action below on GIF. You can get the Excel
-file used to build that ord chart [here].
+See it in action below on GIF. The slide was built by importing data from the **Advanced** tab of [sample data] file.
 
-![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
+![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-[example input data]: <https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx>
-[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/sample%20input.xlsx>
-[product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
+[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 
 ### Why should I use it? ###
 Creating org chart (aka team slide) is [good and old] routine. 
@@ -35,7 +31,7 @@ If you [search] for automation software, you discover [Microsoft Visio]. Indeed,
 1. Visual appeal. Automatic charts look clumsy, they usually require manual adjustments
 2. Easiness. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation is already a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]), but these org charts lack professional touch. 
+Despite org chart automation is already a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]), their org charts lack professional touch, making the need to use **MyBoss** .
 
 [good and old]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [widely adopted]: <https://www.youtube.com/results?search_query=create+org+chart>
@@ -60,6 +56,8 @@ And more:
 
 Extended [product demo] is available on Youtube. 
 
+[product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
+
 ### How to fill Excel template? ###
 To create your own input file, you need to fill the Excel template, following these basic rules:
 
@@ -74,14 +72,14 @@ To create your own input file, you need to fill the Excel template, following th
     - Reports To Surname (manager's surname)
     - Reports To Name (manager's name)
 
-To see an example, download the [example input data]. 
+Learning from [sample data] is highly recommended. 
 
 ### What are system requirements? ###
 You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
 
 **MyBoss** was manually tested under:
-- PC: Microsoft PowerPoint 2016 MSO (16.0.9126.2259) 32-bit + Microsoft Excel 2016 MSO (16.0.9126.2259) 32-bit
-- Mac: Microsoft PowerPoint for Mac Version 16.15 (180709) + Microsoft Excel for Mac Version 16.15 (180709)
+- PC: Microsoft PowerPoint 2016 MSO (16.0.12) 32-bit
+- Mac: Microsoft PowerPoint for Mac Version 16.36
 
 ### How to run MyBoss on Mac? ###
 Same as with Windows, you need to [download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) and open the file.
