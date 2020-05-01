@@ -10,7 +10,7 @@
 Play with [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there are some notes about them below in **How to fill the Excel template?** section.
 
 ### How to give feedback?
-- Option 1: Fill the [2 min anonyous survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
+- Option 1: Fill the [2 min anonymous survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
 - Option 2: Shoot me an email at nikitobot@gmail.com
 
 📣 If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too.
