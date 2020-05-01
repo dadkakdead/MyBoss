@@ -1,8 +1,15 @@
-### Why use MyBoss? ###
+### What is MyBoss? ###
 **MyBoss** lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. On PC and Mac.
 
+### How does it work? ###
+See **MyBoss** in action below on GIF. The slide was built by importing data from the **Advanced** tab of [sample data] file.
+
+![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
+
+[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
+
 ### Ok, how to run it? ###
-**MyBoss** is a PowerPoint file, you just need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
+Since **MyBoss** is a PowerPoint file, you only need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
@@ -16,13 +23,6 @@ Play with [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sa
 📣 If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too.
 
 ---
-
-### How does MyBoss work? ###
-See it in action below on GIF. The slide was built by importing data from the **Advanced** tab of [sample data] file.
-
-![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
-
-[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 
 ### Why should I use it? ###
 Creating org chart (aka team slide) is [good and old] routine. 
