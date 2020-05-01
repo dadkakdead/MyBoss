@@ -9,10 +9,11 @@
 ### Ok, how to fill the Excel template?
 Play with [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there is a detailed description below in **How to fill the Excel template?** section for each of them.
 
-### How to give you feedback?
-Send a story about your journey to nikitobot@gmail.com. 
+### How to give feedback?
+- Option 1: Fill the [2 min anonyous survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
+- Option 2: Shoot me an email at nikitobot@gmail.com
 
-If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too. :)
+📣 If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too. :)
 
 ---
 
@@ -43,20 +44,17 @@ Despite org chart automation is already a feature of many cloud applications (ex
 [Lucidchart]: <https://www.lucidchart.com/pages/how-to-make-an-org-chart>
 
 ### What are the main features of MyBoss? ###
-- Automatic validation of data input (verifying there are no reporting loops, duplicate rows, typos, etc.)
+- Minimum **4** clicks to get the org chart
+- Automatic validation of data in your Excel template (verifying there are no reporting loops, duplicate rows, typos, etc.)
 - Automatic calculation of headcount statistics (employees per manager, direct reports per manager, etc.)
-- Automatic selection of all chart parameters (sizes of cards, amount of white space between elements, distribution of parts of organizational structure per slides)
-- Automatic creation of organizational charts of any complexity (just 1 click after data import)
-- Automatic cross-linking of slides for easy navigation during presentation
+- Automatic line up of shapes on slides (sizes of cards, amount of white space between elements, distribution of parts of organizational structure per slides)
+- Automatic linking of slides
 
-And more:
-- Manual mode to create organizational charts of custom design
+And cool UX features!
 - Customizable design, requiring no coding
 - Clickable elements — **MyBoss** automatically detects the name of employee once you click on his/her card
 
-Extended [product demo] is available on Youtube. 
-
-[product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
+For power users: extended [product demo](<https://www.youtube.com/watch?v=Do3c5ff7b1c>) is available on Youtube. 
 
 ### How to fill Excel template? ###
 To create your own input file, you need to fill the Excel template, following these basic rules:
@@ -78,36 +76,25 @@ Learning from [sample data] is highly recommended.
 You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
 
 **MyBoss** was manually tested under:
-- PC: Microsoft PowerPoint 2016 MSO (16.0.12) 32-bit
-- Mac: Microsoft PowerPoint for Mac Version 16.36
+- PC: Microsoft PowerPoint for Office 365 MSO (16.0.12624.20422) 32-bit
+- Mac: Microsoft PowerPoint for Mac Version 16.36 (version 20041300)
 
 ### How to run MyBoss on Mac? ###
-Same as with Windows, you need to [download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) and open the file.
-
-*NB: When you open the file, security warning may come up. It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is a 100% VBA solution. So, if such a security warning comes up, just click "Enable content".*
-
-However, there is one more step ahead.
-
-Due to the file access restrictions  ([reading Excel files from PowerPoint require AppleScript]), you will need to put [this AppleScript file] to this folder:
+You need to [download the tool](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) AND put [this AppleScript file] to this folder:
 ```bash
 ~/Library/Application Scripts/com.microsoft.Powerpoint/
 ```
-before running the **MyBoss**. 
+This overhead is Mac-specific and comes from file access restrictions: [reading Excel files from PowerPoint require AppleScript].
+
 *NB: Do not change the name of this file since it's hardcoded in MyBoss!*
-*NB2: If you then open [MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) file and see empty OrgChart tab, this means it requires resolving security issues*
-1. *Go to PowerPoint -> Preferences -> Security*
-2. *Click "Enable all macros"*
-3. *Click "Trust access to the VBA project object model"*
-4. *Allow actions to run programs without notification*
-5. *Reopen the file*
 
 To perform a test run:
 1. Open [MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm)
 2. Go to "Org chart" tab
-3. Click "Open"
-4. Select [example input data]
+3. Click "Select Excel file"
+4. Select [sample data]
 5. Select the spreadsheet you like
-6. Click "Upload"
+6. Click "Import"
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
 8. Wait until it finishes
 
@@ -116,12 +103,25 @@ To perform a test run:
 
 ### F.A.Q ###
 > OrgChart tab is missing in PowerPoint.
+
 1. Make sure you opened **MyBoss.pptm** file you should have downloaded from this page.
 2. Make sure your PowerPoint security settings allow to run macros and allow access to
 document model.
 3. Make sure you can see OrgChart tab in ribbon settings in PowerPoint and it's checked to be visible.
 4. If you followed pp. 1-3 and it still does not work for you - drop me a line at nikitobot@gmail.com, i will try to help asap.
 
+> When I open the file, security warning comes up.
+
+It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is a 100% VBA solution. So, if such a security warning comes up, just click "Enable content".*
+
+> When I open **MyBoss**, I see empty OrgChart tab
+
+To resolve the issueL
+1. *Go to PowerPoint -> Preferences -> Security*
+2. *Click "Enable all macros"*
+3. *Click "Trust access to the VBA project object model"*
+4. *Allow actions to run programs without notification*
+5. *Reopen the file*
 ---
 
 ## Developer's corner ##
