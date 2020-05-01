@@ -1,19 +1,17 @@
 ### Why use MyBoss? ###
-**MyBoss** is a tool, which lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. Supports PC and Mac.
+**MyBoss** lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. On PC and Mac.
 
 ### Ok, how to run it? ###
-**MyBoss** is a PowerPoint file, you just need to download and open it.
-- PC users: [click here to download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
+**MyBoss** is a PowerPoint file, you just need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx).
+- PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
-After you open the tool, fill the Excel template and import it to **MyBoss**.
-
-### Ok, where to get the Excel template?
-[Download it here](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). I expect you find it's format self-explanatory, however there is a detailed description below in **How to fill Excel template?**
+### Ok, how to fill the Excel template?
+Template's format is self-explanatory, you will grasp it once you [open it](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). Just in case, below is detailed description in **How to fill Excel template?**
 section.
 
 ### How to give you feedback?
-Share your experience and thoughts by email with nikitobot@gmail.com (me). 
+Send a story about your journey to nikitobot@gmail.com. 
 
 If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too. :)
 
@@ -41,7 +39,7 @@ Org chart automation is already a feature of many cloud applications (ex. [Googl
 
 [good and old]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
 [widely adopted]: <https://www.youtube.com/results?search_query=create+org+chart>
-[searching]: <https://support.office.com/en-us/article/create-an-org-chart-in-office-9419815f-0d7f-4d8b-8220-822036b1fe2b>
+[search]: <https://support.office.com/en-us/article/create-an-org-chart-in-office-9419815f-0d7f-4d8b-8220-822036b1fe2b>
 
 [Microsoft Visio]: <https://products.office.com/en-us/visio/flowchart-software>
 [Google Sheets]: <https://www.bettercloud.com/monitor/the-academy/create-an-org-structure-chart-in-google-sheets/>
