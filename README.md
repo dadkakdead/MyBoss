@@ -1,5 +1,5 @@
-### What is MyBoss? ###
-**MyBoss** is a tool to create organizational charts in PowerPoint using Excel data on PC and Mac.
+### Why use MyBoss? ###
+**MyBoss** is a tool, which lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. Supports PC and Mac.
 
 ### Ok, how to run it? ###
 **MyBoss** is a PowerPoint file, you just need to download and open it.
@@ -9,18 +9,19 @@
 After you open the tool, fill the Excel template and import it to **MyBoss**.
 
 ### Ok, where to get the Excel template?
-[Download Excel template here](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). I expect you find it's format self-explanatory, however there is a detailed description below in **How to fill Excel template?**
+[Download it here](https://github.com/devrazdev/MyBoss/raw/master/example%20input%20data.xlsx). I expect you find it's format self-explanatory, however there is a detailed description below in **How to fill Excel template?**
 section.
 
 ### How to give you feedback?
 Share your experience and thoughts by email with nikitobot@gmail.com (me). 
 
-If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them. :)
+If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too. :)
 
 ---
 
-### How do these org charts look like? ###
-The slide below was automatically created with **MyBoss** using [example input data].
+### How does MyBoss work? ###
+See it in action below on GIF. You can get the Excel
+file used to build that ord chart [here].
 
 ![MyBoss-demo](https://github.com/devrazdev/MyBoss/raw/master/misc/demo.gif)
 
@@ -29,15 +30,17 @@ The slide below was automatically created with **MyBoss** using [example input d
 [product demo]: <https://www.youtube.com/watch?v=Do3c5ff7b1c>
 
 ### Why should I use it? ###
-There is a steadily [growing] interest in creating org charts, and the most [common] approach is creating them in PowerPoint manually, but, starting from ~50 people it becomes too time-consuming. Once you start [searching] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures of any size by uploading existing data and automatically arranging shapes, but it has 2 issues:
+Creating org chart (aka team slide) is [good and old] routine. 
+The most [widely adopted] approach is creating it manually in PowerPoint, but, starting from ~10 people it becomes too time-consuming, hence annoying.
+If you [search] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures, but it has 2 core issues:
 
 1. Visual appeal. Automatic charts look clumsy, they usually require manual adjustments
-2. Flexibility. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
+2. Easiness. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
 
-Org chart automation has already become a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]). None of them have good chart appeal and very few allow export to PowerPoint. **MyBoss** creates beautiful org charts out of the box, and it's native for Microsoft Office suite. 
+Org chart automation is already a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]), but these org charts lack professional touch. 
 
-[growing]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
-[common]: <https://www.youtube.com/results?search_query=create+org+chart>
+[good and old]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
+[widely adopted]: <https://www.youtube.com/results?search_query=create+org+chart>
 [searching]: <https://support.office.com/en-us/article/create-an-org-chart-in-office-9419815f-0d7f-4d8b-8220-822036b1fe2b>
 
 [Microsoft Visio]: <https://products.office.com/en-us/visio/flowchart-software>
