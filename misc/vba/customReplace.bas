@@ -1,3 +1,5 @@
+'2020-05-01 by NT: File added to repo to make GitHub show repo content as 100% VBA
+
 Attribute VB_Name = "customReplace.bas"
 ' Substitute a string inside the textrange preserving the initial formating
 Sub customReplace(shp As Shape, stringToSearch As String, stringToPaste As String)
