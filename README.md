@@ -2,11 +2,11 @@
 **MyBoss** lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. On PC and Mac.
 
 ### How does it work? ###
-See **MyBoss** in action below on GIF. The slide was built by importing data from the **Advanced** tab of [sample data] file.
+See the gif image below to catch **MyBoss** running. The slide was built based on data from the **Advanced** tab of [sample Excel file].
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-[sample data]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
+[sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 
 ### Ok, how to run it? ###
 Since **MyBoss** is a PowerPoint file, you only need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
@@ -14,17 +14,17 @@ Since **MyBoss** is a PowerPoint file, you only need to download it and fill the
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
 ### Ok, how to fill the Excel template?
-Play with [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there are some notes about them below in **How to fill the Excel template?** section.
+Play with [sample Excel file](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there are some useful notes about them in **How to fill the Excel template?** section below.
 
 ### How to give feedback?
 - Option 1: Fill the [2 min anonymous survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
 - Option 2: Shoot me an email at nikitobot@gmail.com
 
-📣 If **MyBoss** saves you time, give it a tribute by spreading a word among colleagues. One day, it may save time to them too.
+📣 If **MyBoss** saves you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
 
 ---
 
-### Why should I use it? ###
+### Why should I use MyBoss? ###
 Creating org chart (aka team slide) is [good and old] routine. 
 The most [widely adopted] approach is creating it manually in PowerPoint, but, starting from ~10 people it becomes too time-consuming, hence annoying.
 If you [search] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures, but it has 2 core issues:
@@ -70,7 +70,7 @@ To create your own input file, you need to fill the Excel template, following th
     - Reports To Surname (manager's surname)
     - Reports To Name (manager's name)
 
-Learning from [sample data] is highly recommended. 
+Learning from [sample Excel file] is highly recommended. 
 
 ### What are system requirements? ###
 You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
@@ -92,7 +92,7 @@ To perform a test run:
 1. Open [MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm)
 2. Go to "Org chart" tab
 3. Click "Select Excel file"
-4. Select [sample data]
+4. Select [sample Excel file]
 5. Select the spreadsheet you like
 6. Click "Import"
 7. Once loaded, click "Create org chart" -> "Single slide org structure"
