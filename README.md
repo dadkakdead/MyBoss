@@ -1,26 +1,26 @@
 ### What is MyBoss? ###
-**MyBoss** is a PowerPoint tool which lets you create professional-looking org charts having only data in Excel. Zero manual effort. On PC and Mac.
+**MyBoss** is a PowerPoint tool which lets you generate professional-looking org charts from employee data in Excel. Works on PC and Mac.
 
 ### How does it work? ###
-See the gif image below to catch **MyBoss** running. The slide was built based on data from the **Advanced** tab of [sample Excel file].
-
-![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
+**MyBoss** takes org structure data from Excel file and automatically builds org chart from it. For example, the slide below was built based on data from the **Advanced** tab of [sample Excel file].
 
 [sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 
-### Ok, how to run it? ###
-Since **MyBoss** is a PowerPoint file, you only need to download it and fill the [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
+![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
+
+### Ok, how do i use it? ###
+Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
 ### Ok, how to fill the Excel template?
-Play with [sample Excel file](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) to learn from examples. You can import it to **MyBoss** as is or customize it preliminarily. Despite column names are self-explanatory, there are some useful notes about them in **How to fill the Excel template?** section below.
+Learn from example by playing with [sample Excel file](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx). You can import it to **MyBoss** as is or customize preliminarily. Despite column names are self-explanatory, there are some useful notes about them below in **How to fill the Excel template?** section.
 
 ### How to give feedback?
-- Option 1: Fill the [2 min anonymous survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
+- Option 1: Fill the [2-minute survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
 - Option 2: Shoot me an email at nikitobot@gmail.com
 
-📣 If **MyBoss** saves you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
+📣 If **MyBoss** saved you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
 
 ---
 
