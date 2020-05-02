@@ -1,5 +1,5 @@
 ### What is MyBoss? ###
-**MyBoss** lets you create professional-looking org charts in PowerPoint having only data in Excel. Zero manual effort. On PC and Mac.
+**MyBoss** is a PowerPoint tool which lets you create professional-looking org charts having only data in Excel. Zero manual effort. On PC and Mac.
 
 ### How does it work? ###
 See the gif image below to catch **MyBoss** running. The slide was built based on data from the **Advanced** tab of [sample Excel file].
