@@ -22,7 +22,11 @@ Initial setup:
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
 ### How to fill the Excel template?
-Learn from example by playing with [sample Excel file]. Despite column names are self-explanatory, there are some useful tips below in **How to fill the Excel template?** section.
+Learn from example by playing with [sample Excel file].
+
+![MyBoss-Template screenshot](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Sample%20data%20screenshot.png)
+
+Despite column names are self-explanatory, there are some useful tips below in **How to fill the Excel template?** section.
 
 ### How to give feedback?
 - Option 1: Fill the [2-minute survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
