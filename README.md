@@ -1,10 +1,10 @@
 ### What is MyBoss? ###
 **MyBoss** is a PowerPoint tool which lets you generate professional-looking org charts from employee data in Excel. 
 
-[Download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) | [Download Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx) | [Download sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
+[Download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) | [Download Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx) | [Download sample employee data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
 
 ### How does it work? ###
-See demo below: **MyBoss** builds org chart from the org structure data in [templated Excel file].
+See demo below: **MyBoss** automatically builds org chart from the employee data in [templated Excel file].
 
 [templated Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 [sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
@@ -12,10 +12,12 @@ See demo below: **MyBoss** builds org chart from the org structure data in [temp
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-P.S. The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
+P.S. The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) (in particular: "Advanced" worksheet)
 
-### How do i use it? ###
+### How to use it? ###
 Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
+
+Initial setup:
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
@@ -24,9 +26,10 @@ Learn from example by playing with [sample Excel file]. Despite column names are
 
 ### How to give feedback?
 - Option 1: Fill the [2-minute survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
-- Option 2: Shoot me an email at nikitobot@gmail.com
+- Option 2: Shoot an email at nikitobot@gmail.com
 
-📣 If **MyBoss** saved you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
+### 📣 ###
+If **MyBoss** saved you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
 
 ---
 
