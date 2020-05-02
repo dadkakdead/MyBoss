@@ -2,19 +2,20 @@
 **MyBoss** is a PowerPoint tool which lets you generate professional-looking org charts from employee data in Excel. Works on PC and Mac.
 
 ### How does it work? ###
-**MyBoss** takes org structure data from Excel file and automatically builds org chart from it. For example, the slide below was built based on data from the **Advanced** tab of [sample Excel file].
+**MyBoss** takes org structure data from the Excel file and automatically builds org chart from it. For example, the slide below was built based on data from the [sample Excel file].
 
 [sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
+[Excel template]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-### Ok, how do i use it? ###
-Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx).
+### How do i use it? ###
+Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
-### Ok, how to fill the Excel template?
-Learn from example by playing with [sample Excel file](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx). You can import it to **MyBoss** as is or customize preliminarily. Despite column names are self-explanatory, there are some useful notes about them below in **How to fill the Excel template?** section.
+### How to fill the Excel template?
+Learn from example by playing with [sample Excel file]. Despite column names are self-explanatory, there are some useful tips below in **How to fill the Excel template?** section.
 
 ### How to give feedback?
 - Option 1: Fill the [2-minute survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
@@ -24,19 +25,19 @@ Learn from example by playing with [sample Excel file](https://github.com/devraz
 
 ---
 
-### Why should I use MyBoss? ###
+### Why should I try MyBoss if I already use X? ###
 Creating org chart (aka team slide) is [good and old] routine. 
-The most [widely adopted] approach is creating it manually in PowerPoint, but, starting from ~10 people it becomes too time-consuming, hence annoying.
-If you [search] for automation software, you discover [Microsoft Visio]. Indeed, Visio lets you visualize org structures, but it has 2 core issues:
+You have [likely tried] to create it manually in PowerPoint, but, starting from ~10 people, it should have become too time-consuming, hence annoying.
+If you [searched] for automation software, you should have discovered [Microsoft Visio]. Still Visio charts have room for improvement:
 
-1. Visual appeal. Automatic charts look clumsy, they usually require manual adjustments
-2. Easiness. Visio org charts can't be natively pasted/edited in PowerPoint, so you get locked on Visio
+1. Design. The charts look clumsy, they usually require manual adjustments
+2. Format. Visio org charts can't be natively pasted/edited in PowerPoint
 
-Despite org chart automation is already a feature of many cloud applications (ex. [Google Sheets], [OrgChartNow], [Lucidchart]), their org charts lack professional touch, making the need to use **MyBoss** .
+You could try going for cloud applications like [Google Sheets], [OrgChartNow] or [Lucidchart], but there is nothing more pedantic and native to PowerPoint than **MyBoss**.
 
 [good and old]: <https://trends.google.com/trends/explore?q=create%20org%20chart&date=all>
-[widely adopted]: <https://www.youtube.com/results?search_query=create+org+chart>
-[search]: <https://support.office.com/en-us/article/create-an-org-chart-in-office-9419815f-0d7f-4d8b-8220-822036b1fe2b>
+[likely tried]: <https://www.youtube.com/results?search_query=create+org+chart>
+[searched]: <https://support.office.com/en-us/article/create-an-org-chart-in-office-9419815f-0d7f-4d8b-8220-822036b1fe2b>
 
 [Microsoft Visio]: <https://products.office.com/en-us/visio/flowchart-software>
 [Google Sheets]: <https://www.bettercloud.com/monitor/the-academy/create-an-org-structure-chart-in-google-sheets/>
@@ -45,21 +46,21 @@ Despite org chart automation is already a feature of many cloud applications (ex
 
 ### What are the main features of MyBoss? ###
 - Minimum **4** clicks to get the org chart
-- Automatic validation of data in your Excel template (verifying there are no reporting loops, duplicate rows, typos, etc.)
-- Automatic calculation of headcount statistics (employees per manager, direct reports per manager, etc.)
-- Automatic line up of shapes on slides (sizes of cards, amount of white space between elements, distribution of parts of organizational structure per slides)
-- Automatic linking of slides
+- Automatic design of slides
+- Automatic validation of data in your Excel template
+- Automatic calculation of headcount statistics
+- Automatic slides' cross-linking
 
 And cool UX features!
-- Customizable design, requiring no coding
-- Clickable elements — **MyBoss** automatically detects the name of employee once you click on his/her card
+- Customizable design
+- Editable org structure
 
 For power users: extended [product demo](<https://www.youtube.com/watch?v=Do3c5ff7b1c>) is available on Youtube. 
 
 ### How to fill Excel template? ###
-To create your own input file, you need to fill the Excel template, following these basic rules:
+Follow these basic rules when filling the Excel template:
 
-1. One tab - one org tree.
+1. One tab - one org structure.
 2. One line - one employee.
 3. "Must have" fields for CEO (boss, head of org tree):
     - Employee Surname
@@ -73,7 +74,7 @@ To create your own input file, you need to fill the Excel template, following th
 Learning from [sample Excel file] is highly recommended. 
 
 ### What are system requirements? ###
-You need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
+You only need Microsoft PowerPoint 16.* and Microsoft Excel 16.*
 
 **MyBoss** was manually tested under:
 - PC: Microsoft PowerPoint for Office 365 MSO (16.0.12624.20422) 32-bit
@@ -89,14 +90,14 @@ This overhead is Mac-specific and comes from file access restrictions: [reading 
 *NB: Do not change the name of this file since it's hardcoded in MyBoss!*
 
 To perform a test run:
-1. Open [MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm)
+1. [Open MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm)
 2. Go to "Org chart" tab
 3. Click "Select Excel file"
 4. Select [sample Excel file]
-5. Select the spreadsheet you like
+5. Select the spreadsheet you want
 6. Click "Import"
-7. Once loaded, click "Create org chart" -> "Single slide org structure"
-8. Wait until it finishes
+7. Once imported, click "Create org chart" -> "Single slide org structure"
+8. Wait until **MyBoss** finishes running
 
 [this AppleScript file]: <https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-browse_files_on_mac.scpt>
 [reading Excel files from PowerPoint require AppleScript]: <https://developer.microsoft.com/en-us/office/blogs/VBA-improvements-in-Office-2016/>
@@ -116,7 +117,7 @@ It usually happens because PowerPoint restricts running VBA code without user co
 
 > When I open **MyBoss**, I see empty OrgChart tab
 
-To resolve the issueL
+To resolve the issue:
 1. *Go to PowerPoint -> Preferences -> Security*
 2. *Click "Enable all macros"*
 3. *Click "Trust access to the VBA project object model"*
