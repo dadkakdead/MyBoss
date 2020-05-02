@@ -12,7 +12,7 @@ See demo below: **MyBoss** automatically builds org chart from the employee data
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-P.S. The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) (in particular: "Advanced" worksheet)
+FYI: The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) (in particular: "Advanced" worksheet)
 
 ### How to use it? ###
 Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
