@@ -1,15 +1,18 @@
 ### What is MyBoss? ###
 **MyBoss** is a PowerPoint tool which lets you generate professional-looking org charts from employee data in Excel. 
 
-[Click here to download it](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm)
+[Download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) | [Download Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx) | [Download sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
 
 ### How does it work? ###
-**MyBoss** takes org structure data from the Excel file and automatically builds org chart from it. For example, the slide below was built based on data from the [sample Excel file].
+See demo below: **MyBoss** builds org chart from the org structure data in [templated Excel file].
 
+[templated Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 [sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 [Excel template]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
+
+P.S. The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
 
 ### How do i use it? ###
 Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
