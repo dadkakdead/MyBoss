@@ -146,6 +146,8 @@ Their comparison is presented [here] and [there]. Basically, Office for Mac does
 [there]: <https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins#StartBuildingApps_TypesofApps>
 
 ### How to customize MyBoss on my own? ###
+Foreword: it's highly recommended to check [Ron De Bruin's website](https://www.rondebruin.nl/) with tutorials and examples about building VBA solutions and customizing ribbons. That's an amazing source of VBA wisdom.
+
 1. To customize core, you will have to use Office Visual Basic Editor, since VBA code is stored inside the *MyBoss.pptm* file in binary format.
     - PC: type Alt+F11 or go to "Developer" tab -> Visual Basic;
     - Mac: go to Tools -> Macro -> Visual Basic Editor.
