@@ -103,19 +103,19 @@ To perform a test run:
 [reading Excel files from PowerPoint require AppleScript]: <https://developer.microsoft.com/en-us/office/blogs/VBA-improvements-in-Office-2016/>
 
 ### F.A.Q ###
-> OrgChart tab is missing in PowerPoint.
+> "Org chart" tab is missing in PowerPoint.
 
 1. Make sure you opened **MyBoss.pptm** file you should have downloaded from this page.
 2. Make sure your PowerPoint security settings allow to run macros and allow access to
 document model.
-3. Make sure you can see OrgChart tab in ribbon settings in PowerPoint and it's checked to be visible.
-4. If you followed pp. 1-3 and it still does not work for you - drop me a line at nikitobot@gmail.com, i will try to help asap.
+3. Make sure you can see *Org chart* tab name in ribbon settings in PowerPoint and it's checked to be visible.
+4. If you followed pp. 1-3 and it still does not come up — drop me a line at nikitobot@gmail.com, i will try to help asap.
 
 > When I open the file, security warning comes up.
 
-It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is a 100% VBA solution. So, if such a security warning comes up, just click "Enable content".*
+It usually happens because PowerPoint restricts running VBA code without user consent, while **MyBoss** is a 100% VBA solution. So, if that happens, just click "Enable content".
 
-> When I open **MyBoss**, I see empty OrgChart tab
+> When I open **MyBoss**, I see empty "Org chart" tab
 
 To resolve the issue:
 1. *Go to PowerPoint -> Preferences -> Security*
