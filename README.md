@@ -154,7 +154,7 @@ Foreword: it's highly recommended to check [Ron De Bruin's website](https://www.
 2. To customize UI tab (Ribbon XML):
 [Reference guide on UI], [Mac Ribbon examples], [Win Ribbon examples]
     - PC: Suggest using utility [OfficeCustomUIEditorSetup] (requires [.NET 3.0](https://www.microsoft.com/en-us/p/surface-laptop-3/8VFGGH1R94TM))
-    - Mac: Suggest you find a PC. [However], if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which then you can edit (folder "customUI")
+    - Mac: Suggest you find a PC. [Work around]: if you change the extension of *MyBoss.pptm* from PPTM to ZIP and look inside the archive, you will find the Ribbon XML, which then you can edit (folder "customUI")
 3. To customize the design of organizational charts:
     - PC & Mac: edit the Templates on slide 1, preserving their names and their grouping. [Learn how to check the names of shapes using Selection pane]
 
@@ -162,7 +162,7 @@ Foreword: it's highly recommended to check [Ron De Bruin's website](https://www.
 [Mac Ribbon examples]: <https://www.rondebruin.nl/mac/macfiles/MacRibbonExamples.dmg>
 [Win Ribbon examples]: <https://www.rondebruin.nl/win/winfiles/RibbonExampleFiles.zip>
 [OfficeCustomUIEditorSetup]: http://www.rondebruin.nl/win/winfiles/OfficeCustomUIEditorSetup.zip
-[However]: <https://support.office.com/en-us/article/extract-files-or-objects-from-a-powerpoint-file-85511e6f-9e76-41ad-8424-eab8a5bbc517>
+[Work around]: <https://support.office.com/en-us/article/extract-files-or-objects-from-a-powerpoint-file-85511e6f-9e76-41ad-8424-eab8a5bbc517>
 [Learn how to check the names of shapes using Selection pane]:<https://support.office.com/en-us/article/manage-objects-with-the-selection-pane-a6b2fd3e-d769-46c1-9b9c-b94e04a72550>
 
 ## Thanks to contributors ❤️
