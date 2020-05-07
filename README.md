@@ -15,8 +15,6 @@ FYI: The example slide was built based on [sample data](https://github.com/devra
 
 ### How to use it? ###
 Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
-
-Initial setup:
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
