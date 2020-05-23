@@ -1,40 +1,40 @@
 ### What is MyBoss? ###
-**MyBoss** is a PowerPoint tool which lets you generate professional-looking org charts from employee data in Excel.
-[Download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) | [Download Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx) | [Download sample employee data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
+**MyBoss** is a PowerPoint tool which lets you automatically create professional-looking organizational charts from employee data in Excel.
+[Download MyBoss](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm) | [Download Excel template](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx) | [Download sample Excel file](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx)
 
 ### How does it work? ###
-See demo below: **MyBoss** automatically builds org chart from the employee data in [templated Excel file].
+See demo below: **MyBoss** automatically creates organizational chart from the employee data in [Excel template].
 
-[templated Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
+[Excel template]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 [sample Excel file]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx>
 [Excel template]: <https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Template.xlsx>
 
 ![MyBoss-Demo](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Demo.gif)
 
-FYI: The example slide was built based on [sample data](https://github.com/devrazdev/MyBoss/raw/master/MyBoss-Sample%20data.xlsx) (in particular: "Advanced" worksheet)
+FYI: This slide was built based on employee data from [sample Excel file](**Advanced** worksheet)
 
 ### How to use it? ###
 Open **MyBoss**, click the *Org chart* tab and import the pre-filled [Excel template].
 - PC users: [download MyBoss here](https://github.com/devrazdev/MyBoss/raw/master/MyBoss.pptm).
 - Mac users: scroll down to **How to run MyBoss on Mac?** section.
 
-### How to fill the Excel template?
+### How to fill the Excel template? ###
 Learn from example by playing with [sample Excel file].
 
 ![MyBoss-Template screenshot](https://github.com/devrazdev/MyBoss/raw/master/misc/MyBoss-Sample%20data%20screenshot.png)
 
 Despite column names are self-explanatory, there are some useful tips below in **How to fill the Excel template?** section.
 
-### How to give feedback?
+### How to give feedback? ###
 - Option 1: Fill the [2-minute survey](https://forms.gle/9EE1sbwSakhsVVNf7) about **MyBoss**
 - Option 2: Shoot an email at nikitobot@gmail.com
 
-### 📣 ###
-If **MyBoss** saved you time, give it a tribute by spreading a word among friends and colleagues. One day it may save time to them too.
+### How to support this project? ###
+If **MyBoss** saved you time, spread a word about it among colleagues. One day it may save time to them too.
 
 ---
 
-### Why should I try MyBoss if I already use X? ###
+### Why should I try MyBoss if I already use Visio/Canva/etc? ###
 Creating org chart (aka team slide) is [good and old] routine. 
 You have [likely tried] to create it manually in PowerPoint, but, starting from ~10 people, it should have become too time-consuming, hence annoying.
 If you [searched] for automation software, you should have discovered [Microsoft Visio]. Still Visio charts have room for improvement:
@@ -54,17 +54,14 @@ You could try going for cloud applications like [Google Sheets], [OrgChartNow] o
 [Lucidchart]: <https://www.lucidchart.com/pages/how-to-make-an-org-chart>
 
 ### What are the main features of MyBoss? ###
-- Minimum **4** clicks to get the org chart
+- **4** clicks to create the organizational chart
 - Automatic design of slides
 - Automatic validation of data in your Excel template
 - Automatic calculation of headcount statistics
-- Automatic slides' cross-linking
+- Automatic cross-linking of slides
+- Editable slides
 
-And cool UX features!
-- Customizable design
-- Editable org structure
-
-For power users: extended [product demo](<https://www.youtube.com/watch?v=Do3c5ff7b1c>) is available on Youtube. 
+For power users: check the [product demo on Youtube](<https://www.youtube.com/watch?v=Do3c5ff7b1c>)
 
 ### How to fill Excel template? ###
 Follow these basic rules when filling the Excel template:
